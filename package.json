@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/flyme2bluemoon/code-gallery-api/issues"
   },
-  "homepage": "https://github.com/flyme2bluemoon/code-gallery-api#readme",
   "dependencies": {
     "next": "^12.0.10"
   },
