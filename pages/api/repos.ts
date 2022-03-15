@@ -7,7 +7,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
     }
 
     if (request.query.name) {
-        api_res = await fetch("https://api.github.com/repos/flyme2bluemoon/Advent-of-Code-2021/languages", {
+        api_res = await fetch(`https://api.github.com/repos/flyme2bluemoon/${request.query.name}/languages`, {
             method: "GET",
             headers: headers
         }).then(data => data.json());
